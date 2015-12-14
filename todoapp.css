@@ -1,1 +1,33 @@
 /* CSS declarations go here */
+body {
+  min-height: 2000px;
+  padding-top: 70px;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+	padding: 15px;
+	border-bottom: #eee solid 1px;
+}
+
+.delete-todo {
+	float : right;
+	font-weight: bold;
+	background: none;
+	font-size: 1em;
+	position: relative;
+	border: none;
+}
+
+li.checked {
+	color: #ccc;	
+}
+
+li.checked .text{
+	text-decoration: line-through;
+}
